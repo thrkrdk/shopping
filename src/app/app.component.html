@@ -1,0 +1,10 @@
+<section>
+  <h1>Add Phone</h1>
+  <app-phone
+    (addPhoneToCart)="onAddPhoneToCart($event)"
+  ></app-phone>
+</section>
+<section>
+  <h1>Cart</h1>
+  <app-cart [items]="items"></app-cart>
+</section>
